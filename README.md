@@ -1,2 +1,2 @@
 # MinoSharp
-Simple C# API Wrapper for minotar.net API.
+Simple C# API Wrapper for minotar.net's API.
