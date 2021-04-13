@@ -20,7 +20,6 @@ namespace MinoSharp.API
             string _requestUrl = _apiUrl;
             for (int i = 0; i < args.Length; i++) { _requestUrl += args[i]; }
             HttpWebRequest req = (HttpWebRequest)WebRequest.Create(_requestUrl);
-            Console.WriteLine(_requestUrl);
             return (HttpWebResponse)req.GetResponse();
 
             
