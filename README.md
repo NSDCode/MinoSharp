@@ -13,7 +13,7 @@ CUBE
 SKIN
 HELMET
 
-##File formats:
+## File formats:
 
 JPG
 PNG
