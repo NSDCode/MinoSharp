@@ -20,7 +20,7 @@ PNG
 
 ## Functions:
 
-GetItem(string username, int size, ITEMS_COLLECTION item, IMAGE_FORMATS format) return type: byte[]
+### GetItem(string username, int size, ITEMS_COLLECTION item, IMAGE_FORMATS format) return type: byte[]
 
 username: the username of the player
 
@@ -30,7 +30,7 @@ item: type of data you want to get
 
 format: image format
 
-SaveItem(string username, string path, int size, ITEMS_COLLECTION item, IMAGE_FORMATS format) return type: void
+### SaveItem(string username, string path, int size, ITEMS_COLLECTION item, IMAGE_FORMATS format) return type: void
 
 username: the username of the player
 
