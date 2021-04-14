@@ -18,7 +18,7 @@ namespace MinoSharp.API
         public static HttpWebResponse Request(string[] args)
         {
             string _requestUrl = _apiUrl;
-            for (int i = 0; i < args.Length; i++) { _requestUrl += args[i]; }
+            _requestUrl = $"{_apiUrl}{string.Join(string.Empty, args)}
             HttpWebRequest req = (HttpWebRequest)WebRequest.Create(_requestUrl);
             return (HttpWebResponse)req.GetResponse();
 
